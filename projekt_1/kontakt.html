@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="zegar.js"></script>
+    <link rel="stylesheet" href="kontakt.css" />
+  </head>
+
+  <body onload="startTime()">
+    <nav>
+      <a class="navbar-link" href="index.html"
+        ><p id="clock"></p>
+        <img id="icon" src="images/icons8-coffee-50.png"
+      /></a>
+      <a class="navbar-link" href="typy_kawy.html">TYPY KAWY</a>
+      <a class="navbar-link" href="parzenie.html">PARZENIE</a>
+      <a class="navbar-link" href="kontakt.html">KONTAKT</a>
+    </nav>
+
+    <div id="main">
+      <h1 id="contact_header">Skontaktuj się z nami</h1>
+      <br />
+
+      <div class="container">
+        <form>
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Imię i nazwisko</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Jan Kowalski"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">E-mail</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="jkowalski123@gmail.com"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="temat">Temat</label>
+            </div>
+            <div class="col-75">
+              <select id="temat" name="temat">
+                <option value="" disabled selected hidden>Wybierz temat</option>
+                <option value="1">Propozycja treści</option>
+                <option value="2">Problem techniczny</option>
+                <option value="3">Inny</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Treść</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Piszę w sprawie.."
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Wyślij" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p class="footer_p">Autor: Filip Węgrzyn</p>
+      <hr />
+    </footer>
+  </body>
+</html>

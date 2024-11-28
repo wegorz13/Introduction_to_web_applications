@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Co się parzy?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="zegar.js"></script>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+
+  <body onload="startTime()">
+    <nav>
+      <a class="navbar-link" href="index.html"
+        ><p id="clock"></p>
+        <img id="icon" src="images/icons8-coffee-50.png"
+      /></a>
+      <a class="navbar-link" href="typy_kawy.html">TYPY KAWY</a>
+      <a class="navbar-link" href="parzenie.html">PARZENIE</a>
+      <a class="navbar-link" href="kontakt.html">KONTAKT</a>
+    </nav>
+
+    <div id="main_image_div">
+      <img id="main_image" src="images/coffe_background_f.png" />
+      <div id="main_text">Co się parzy?</div>
+    </div>
+
+    <div id="home_div">
+      <p id="welcome_msg">Witaj na stronie dla entuzjastów kawy!</p>
+
+      <div id="intro_div">
+        <img class="cup_img" src="images/coffe_cup.png" />
+        <pre class="intro_text">
+          Tutaj dowiesz się wszystkiego, 
+              od metod parzenia kawy 
+                po rodzaje ziaren.
+        </pre>
+      </div>
+      <div id="news_container">
+        <p id="news_header">AKTUALNOŚCI</p>
+
+        <a
+          class="single_news"
+          href="https://www.google.com/search?q=mi%C4%99dzynarodowy+dzie%C5%84+kawy&oq=mi%C4%99dzynarodowy+dzie%C5%84+kawy&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhAuGEDSAQg1MjcyajBqMagCALACAA&sourceid=chrome&ie=UTF-8"
+          ><img class="news_img" src="images/dzien_kawy.png" />
+          <p class="news_descript">
+            Międzynarodowy dzień kawy już niedługo!
+          </p></a
+        >
+
+        <a
+          class="single_news"
+          href="https://www.google.com/search?q=ranking+kawiarni+w+krakowie+2024&oq=rankin&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyBggCEEUYOzIGCAMQRRg5MgYIBBBFGDwyBggFEEUYPDIGCAYQLhhA0gEHOTQ2ajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8"
+          ><img class="news_img" id="rank_img" src="images/ranking3.jpg" />
+          <p class="news_descript">
+            Nasz ranking kawiarni w Krakowie na rok 2024
+          </p></a
+        >
+        <a
+          class="single_news"
+          href="https://www.google.com/search?q=Nowe+badania+na+temat+wp%C5%82ywu+kawy+na+organizm&sca_esv=492959cb0fa9f70d&sxsrf=ADLYWIICGgoh6P331dssnf-oJT3quvFZKg%3A1730212269726&ei=rfEgZ7OKLOWnwPAPqYmMoA4&ved=0ahUKEwjzlOT95rOJAxXlExAIHakEA-QQ4dUDCA8&uact=5&oq=Nowe+badania+na+temat+wp%C5%82ywu+kawy+na+organizm&gs_lp=Egxnd3Mtd2l6LXNlcnAiLk5vd2UgYmFkYW5pYSBuYSB0ZW1hdCB3cMWCeXd1IGthd3kgbmEgb3JnYW5pem0yBRAhGJ8FMgUQIRifBTIFECEYnwUyBRAhGJ8FSLsHUABYAHAAeAGQAQCYAZcBoAGXAaoBAzAuMbgBA8gBAPgBAvgBAZgCAaACnAGYAwCSBwMwLjGgB6UF&sclient=gws-wiz-serp"
+          ><img class="news_img" src="images/research.webp" />
+          <p class="news_descript">
+            Nowe badania na temat wpływu kawy na organizm
+          </p></a
+        >
+      </div>
+    </div>
+
+    <footer>
+      <p class="footer_p">Autor: Filip Węgrzyn</p>
+      <hr />
+    </footer>
+  </body>
+</html>

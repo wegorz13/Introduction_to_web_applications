@@ -1,0 +1,27 @@
+.title {
+  height: 100px;
+}
+
+.description {
+  height: 100px;
+}
+
+.imagetd {
+  height: 100px;
+  width: 100px;
+}
+
+.image {
+  width: 100%;
+}
+
+.imagetd,
+.title,
+.description {
+  border: 3px solid black;
+}
+
+.title,
+.description {
+  text-align: center;
+}

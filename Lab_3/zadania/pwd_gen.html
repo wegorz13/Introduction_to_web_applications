@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="pwd_gen.js" defer></script>
+  </head>
+  <body>
+    <form id="generator">
+      <label for="min_length">minimalna długość</label>
+      <input type="number" id="min_length" name="min_length" />
+      <br />
+      <br />
+      <label for="max_length">maksymalna długość</label>
+      <input type="number" id="max_length" name="max_length" />
+      <br />
+      <br />
+      <input
+        type="checkbox"
+        id="great_letters"
+        name="great_letters"
+        value="great_letters"
+      />
+      <label for="great_letters"> Wielkie litery</label><br />
+      <br />
+      <input
+        type="checkbox"
+        id="special_marks"
+        name="special_marks"
+        value="special_marks"
+      />
+      <label for="special_marks"> Znaki specjalne</label><br />
+      <button type="button" id="gen_btn">wygeneruj</button>
+    </form>
+  </body>
+</html>
