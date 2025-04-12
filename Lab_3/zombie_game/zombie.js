@@ -110,13 +110,10 @@ function ZOMBIEGAME() {
     zombie.style.top =
       Math.floor(Math.random() * (window_height - zombie_height)) + "px";
 
-    // let zombie_size = Math.floor(Math.random() * 3 + 1);
+    let zombie_size = Math.floor(Math.random() * 3 + 1);
 
-    // zombie.style.width = zombie_width / zombie_size + "px";
-    // zombie.style.height = zombie_height / zombie_size + "px";
-
-    zombie.style.width = 150 + "px";
-    zombie.style.height = 234 + "px";
+    zombie.style.width = zombie_width / zombie_size + "px";
+    zombie.style.height = zombie_height / zombie_size + "px";
 
     zombie_sound.play();
 
